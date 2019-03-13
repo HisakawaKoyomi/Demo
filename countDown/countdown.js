@@ -15,6 +15,15 @@ window.onload = function () {
     var canvas = document.getElementById("canvas");
     var context = canvas.getContext("2d");
 
+    WIDTH = document.body.clientWidth;
+    HEIGHT = document.body.clientHeight;
+    
+    MARGIN_TOP = Math.round(HEIGHT /5);
+    MARGIN_LEFT = Math.round(WIDTH /10);
+    RADIUS = Math.round(WIDTH * 4 / 5 / 108)-1;
+
+
+
     canvas.width = WIDTH;
     canvas.height = HEIGHT;
 
