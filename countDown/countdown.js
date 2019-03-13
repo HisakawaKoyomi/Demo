@@ -10,27 +10,27 @@ var curShowTimeSeconds = 0;
 
 var balls = [];
 var colors = ["#33B5E5","#0099CC","#AA66CC","#9933CC","#99CC00","#669900","#FFBB33","#FF8800","#FF4444","#CC0000"];
+//以上都为初始化全局变量
 
 window.onload = function () {
     var canvas = document.getElementById("canvas");
     var context = canvas.getContext("2d");
 
-    WIDTH = document.body.clientWidth;
+    WIDTH = document.body.clientWidth; //修改宽高，美化视觉效果
     HEIGHT = document.body.clientHeight;
-    
+
     MARGIN_TOP = Math.round(HEIGHT /5);
     MARGIN_LEFT = Math.round(WIDTH /10);
     RADIUS = Math.round(WIDTH * 4 / 5 / 108)-1;
-
-
-
-    canvas.width = WIDTH;
+    
+    canvas.width = WIDTH; //style设置的宽高仅仅是画布，而不是画纸
     canvas.height = HEIGHT;
 
+    //获取当前时间，及应该显示的时间
     curShowTimeSeconds = getCurTimeSeconds();
     setInterval(function () {
-        render(context);
-        update();
+        render(context); //绘制
+        update(); //更新
     },50);
 };
 
@@ -52,6 +52,9 @@ function update() {
     var curHour = parseInt(curShowTimeSeconds/3600);
     var curMin = parseInt((curShowTimeSeconds - curHour*3600)/60);
     var curSec = parseInt(curShowTimeSeconds % 60);
+    //第一种更新：倒计时显示变化（1s）
+    //第二种更新：新的彩色小球入栈（1s）
+    //第三种更新：所有可见小球的运动位置更新（根据定时器帧数）
     if (nextSec != curSec){
         if (parseInt(nextHour/10) != parseInt(curHour/10)){
             addBalls(MARGIN_LEFT,MARGIN_TOP,parseInt(curHour/10));
@@ -122,9 +125,10 @@ function addBalls(x,y,num) {
 
 }
 
+//绘制函数，绘制数码显示&所有的彩色小球
 function render(ctx) {
 
-    ctx.clearRect(0,0,WIDTH,HEIGHT);
+    ctx.clearRect(0,0,WIDTH,HEIGHT); //及时清空画布
 
     var hour = parseInt(curShowTimeSeconds/3600);
     var min = parseInt((curShowTimeSeconds - hour*3600)/60);
