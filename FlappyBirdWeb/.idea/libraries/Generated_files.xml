@@ -5,18 +5,10 @@
         <item url="file://$PROJECT_DIR$/dist/Main.js" />
         <item url="file://$PROJECT_DIR$/dist/game.js" />
         <item url="file://$PROJECT_DIR$/dist/js/Director.js" />
-        <item url="file://$PROJECT_DIR$/dist/js/Main.js" />
         <item url="file://$PROJECT_DIR$/dist/js/base/DataStore.js" />
-        <item url="file://$PROJECT_DIR$/dist/js/base/ResourceLoader.js" />
         <item url="file://$PROJECT_DIR$/dist/js/base/Resources.js" />
         <item url="file://$PROJECT_DIR$/dist/js/base/Sprite.js" />
-        <item url="file://$PROJECT_DIR$/dist/js/player/Birds.js" />
-        <item url="file://$PROJECT_DIR$/dist/js/player/Score.js" />
-        <item url="file://$PROJECT_DIR$/dist/js/player/StartButton.js" />
         <item url="file://$PROJECT_DIR$/dist/js/runtime/BackGround.js" />
-        <item url="file://$PROJECT_DIR$/dist/js/runtime/DownPencil.js" />
-        <item url="file://$PROJECT_DIR$/dist/js/runtime/Land.js" />
-        <item url="file://$PROJECT_DIR$/dist/js/runtime/UpPencil.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
