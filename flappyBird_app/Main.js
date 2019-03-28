@@ -8,9 +8,10 @@ import {Birds} from "./js/player/Birds.js";
 import {StartButton} from "./js/player/StartButton.js";
 import {Score} from "./js/player/Score.js";
 
+
 export class Main {
     constructor() {
-        this.canvas = document.getElementById('game_canvas');
+        this.canvas = wx.createCanvas();
         this.ctx = this.canvas.getContext('2d');
         this.dataStore = DataStore.getInstance();
         this.director = Director.getInstance();
@@ -19,10 +20,21 @@ export class Main {
     }
 
     onResourceFirstLoaded(map) {
+        this.createBackgroundMusic();
+        this.dataStore.canvas = this.canvas;
         // ctx,res 不需要随着每轮游戏的开始/结束而重新创建/销毁，一直存在单例中
         this.dataStore.ctx = this.ctx;
         this.dataStore.res = map;
+
         this.init();
+    }
+
+    //创建背景音乐
+    createBackgroundMusic() {
+        const bgm = wx.createInnerAudioContext();
+        //bgm.autoplay = true;
+        //bgm.loop = true;
+        //bgm.src = 'audios/bgm.mp3';
     }
 
     init() {
@@ -30,12 +42,12 @@ export class Main {
         this.director.isGameOver = false;
         // 游戏开始一轮，初始化一轮
         this.dataStore
-            .put('background',BackGround)
-            .put('land',Land)
-            .put('pencil',[])
-            .put('birds',Birds)
-            .put('startButton',StartButton)
-            .put('score',Score);
+            .put('background', BackGround)
+            .put('land', Land)
+            .put('pencil', [])
+            .put('birds', Birds)
+            .put('startButton', StartButton)
+            .put('score', Score);
 
         this.registerEvent();
         this.director.createPencil();
@@ -43,10 +55,10 @@ export class Main {
     }
 
     registerEvent() {
-        this.canvas.addEventListener('touchstart',e => {
-            e.preventDefault();
+
+        wx.onTouchStart(e => {
             const startButton = this.dataStore.get('startButton');
-            if (this.director.isGameOver){
+            if (this.director.isGameOver) {
                 if (e.touches[0].clientX >= startButton.x &&
                     e.touches[0].clientX <= startButton.x + startButton.width &&
                     e.touches[0].clientY >= startButton.y &&
@@ -54,7 +66,7 @@ export class Main {
                     console.log('游戏开始');
                     this.init();
                 }
-            }else {
+            } else {
                 this.director.birdsEvent();
             }
         })
