@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="610c7fd3-8b05-4184-bf80-92a7d0ab7243" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/flappyBird.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/bgm.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/Director.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/base/DataStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/base/ResourceLoader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/base/Resources.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/base/Sprite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/player/Birds.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/player/Score.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/player/StartButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/runtime/BackGround.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/runtime/DownPencil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/runtime/Land.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/runtime/Pencil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/runtime/UpPencil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/begin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/birds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/land.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/pie_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/pie_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/start_button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlappyBirdWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FlappyBirdWeb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlappyBirdWeb/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FlappyBirdWeb/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -96,18 +64,19 @@
     <session id="-1550495699">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="12" />
+          <entry key="js" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="12" />
+          <entry key="JavaScript" value="14" />
         </counts>
       </usages-collector>
     </session>
@@ -117,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="59" column="17" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="66" />
+            <state relative-caret-position="252">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#10#69#0" expanded="true" />
               </folding>
@@ -267,12 +236,12 @@
       <updated>1553768346394</updated>
       <workItem from="1553768349787" duration="13449000" />
       <workItem from="1553783423770" duration="761000" />
-      <workItem from="1553784347093" duration="604000" />
+      <workItem from="1553784347093" duration="1026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14814000" />
+    <option name="totallyTimeSpent" value="15236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -353,8 +322,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="59" column="17" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="66" />
+        <state relative-caret-position="252">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#10#69#0" expanded="true" />
           </folding>
