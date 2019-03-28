@@ -31,6 +31,8 @@ export class Sprite {
      * width 要使用的宽度
      * height 要使用的高度
      */
+    
+    // 传参形式，便于子类重写
     draw (img = this.img,
           srcX = this.srcX,
           srcY = this.srcY,

@@ -9,23 +9,28 @@
         <item url="file://$PROJECT_DIR$/dist/js/base/Resources.js" />
         <item url="file://$PROJECT_DIR$/dist/js/base/Sprite.js" />
         <item url="file://$PROJECT_DIR$/dist/js/runtime/BackGround.js" />
+        <item url="file://$PROJECT_DIR$/dist/js/runtime/DownPencil.js" />
+        <item url="file://$PROJECT_DIR$/dist/js/runtime/Land.js" />
+        <item url="file://$PROJECT_DIR$/dist/js/runtime/Pencil.js" />
+        <item url="file://$PROJECT_DIR$/dist/js/runtime/UpPencil.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/dist/Main.js" />
-      <root url="file://$PROJECT_DIR$/dist/game.js" />
-      <root url="file://$PROJECT_DIR$/dist/js/Director.js" />
       <root url="file://$PROJECT_DIR$/dist/js/Main.js" />
-      <root url="file://$PROJECT_DIR$/dist/js/base/DataStore.js" />
       <root url="file://$PROJECT_DIR$/dist/js/base/ResourceLoader.js" />
-      <root url="file://$PROJECT_DIR$/dist/js/base/Resources.js" />
-      <root url="file://$PROJECT_DIR$/dist/js/base/Sprite.js" />
       <root url="file://$PROJECT_DIR$/dist/js/player/Birds.js" />
       <root url="file://$PROJECT_DIR$/dist/js/player/Score.js" />
       <root url="file://$PROJECT_DIR$/dist/js/player/StartButton.js" />
+      <root url="file://$PROJECT_DIR$/dist/Main.js" />
+      <root url="file://$PROJECT_DIR$/dist/game.js" />
+      <root url="file://$PROJECT_DIR$/dist/js/Director.js" />
+      <root url="file://$PROJECT_DIR$/dist/js/base/DataStore.js" />
+      <root url="file://$PROJECT_DIR$/dist/js/base/Resources.js" />
+      <root url="file://$PROJECT_DIR$/dist/js/base/Sprite.js" />
       <root url="file://$PROJECT_DIR$/dist/js/runtime/BackGround.js" />
       <root url="file://$PROJECT_DIR$/dist/js/runtime/DownPencil.js" />
       <root url="file://$PROJECT_DIR$/dist/js/runtime/Land.js" />
+      <root url="file://$PROJECT_DIR$/dist/js/runtime/Pencil.js" />
       <root url="file://$PROJECT_DIR$/dist/js/runtime/UpPencil.js" />
     </CLASSES>
     <SOURCES />
