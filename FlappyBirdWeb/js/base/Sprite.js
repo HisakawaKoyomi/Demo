@@ -56,6 +56,5 @@ export class Sprite {
 
     static getImage(key) {
         return DataStore.getInstance().res.get(key);
-
     }
 }

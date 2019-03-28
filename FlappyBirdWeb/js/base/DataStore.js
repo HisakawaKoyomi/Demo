@@ -3,7 +3,7 @@ export class DataStore {
     constructor() {
         this.map = new Map();
     }
-
+    
     put(key,value) {
         if (typeof value === 'function'){
             value = new value();

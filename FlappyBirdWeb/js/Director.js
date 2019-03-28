@@ -71,6 +71,11 @@ export class Director {
             this.isGameOver = true;
             return; // 不用进行后续判断
         }
+        if (birds.birdsY[0] <= 0){
+            console.log('撞击天花板啦');
+            this.isGameOver = true;
+            return; // 不用进行后续判断
+        }
 
         // 计分判断
         if (birds.birdsX[0] > pencils[0].x + pencils[0].width && score.isScore){

@@ -10,7 +10,7 @@ export class Score {
 
     draw() {
         this.ctx.font = '25px Arial';
-        this.ctx.fillStyle = '#0f0';
+        this.ctx.fillStyle = '#00f';
         this.ctx.fillText(
             this.scoreNumber,
             window.innerWidth / 2,

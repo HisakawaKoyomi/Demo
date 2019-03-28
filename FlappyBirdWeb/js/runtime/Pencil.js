@@ -21,6 +21,5 @@ export class Pencil extends Sprite{
             this.x,this.y,
             this.width,this.height
         );
-
     }
 }
